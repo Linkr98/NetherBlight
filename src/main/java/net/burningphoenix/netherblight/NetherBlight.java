@@ -7,9 +7,7 @@ import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
 import net.minecraftforge.event.server.ServerStartingEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.fml.ModLoadingContext;
 import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.fml.config.ModConfig;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
@@ -20,7 +18,7 @@ import org.slf4j.Logger;
 public class NetherBlight
 {
     // Define mod id in a common place for everything to reference
-    public static final String MODID = "NetherBlight";
+    public static final String MODID = "netherblight";
     // Directly reference a slf4j logger
     private static final Logger LOGGER = LogUtils.getLogger();
 
